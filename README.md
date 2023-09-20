@@ -1,11 +1,8 @@
 # Getting Started with Time Restricted Quiz React App
-
-This project was bootstrapped with [Quizzer React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm install --force`
 ### `npm start`
 
 Runs the app in the development mode.\
