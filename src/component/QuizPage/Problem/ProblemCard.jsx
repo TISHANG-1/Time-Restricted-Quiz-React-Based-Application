@@ -53,7 +53,7 @@ const ProblemCard = ({
   const handleMarkQuestion = (pos, index) => {
     // Toggle the question mark status
     const updatedMarkedQuestions = [...markedQuestions];
-    updatedMarkedQuestions[pos] = !updatedMarkedQuestions[pos];
+    updatedMarkedQuestions[pos] = !updatedMarkedQuestions[pos] || updatedMarkedQuestions[pos];
     setMarkedQuestions(updatedMarkedQuestions);
 
     // Set the marked option for the question
