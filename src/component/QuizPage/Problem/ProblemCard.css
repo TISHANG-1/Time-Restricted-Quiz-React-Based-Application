@@ -1,0 +1,56 @@
+.problem-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 10em 15em auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: fixed; 
+    display: flex;
+    flex-direction: column;
+    width: 56em;
+  }
+  
+  
+  .question {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option {
+    padding: 8px;
+    margin: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .correct {
+    background-color: #5cb85c; /* Green for correct answer */
+  }
+  .nav-buttons{ 
+    width:20.5em;;
+    height: 4em;
+    margin: 0.5em 0.5em 0.5em 1em;
+    border-radius: 1em;  
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  
+    background-color: #f0f0f0;
+
+  }  
+  .nav-buttons:hover{ 
+    background-color: #ffffff;
+  }
+  .incorrect {
+    background-color: #d9534f; /* Red for incorrect answers */
+  }
+  

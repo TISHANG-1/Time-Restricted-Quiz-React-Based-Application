@@ -1,0 +1,6 @@
+export const ALL_PROBLEM_REQUEST = "ALL_PROBLEM_REQUEST"; 
+export const ALL_PROBLEM_SUCCESS = 
+"ALL_PROBLEM_SUCCESS" ; 
+export const ALL_PROBLEM_FAIL = "ALL_PROBLEM_FAIL" ;   
+
+export const CLEAR_ERROR = "CLEAR_ERROR" ; 
