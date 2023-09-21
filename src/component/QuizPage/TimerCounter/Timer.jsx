@@ -36,7 +36,7 @@ export default function Timer({isRunning , setIsRunning}) {
         duration={duration}
         initialRemainingTime={duration}
         onComplete={() => {
-            setIsRunning(false); // Set the timerEnded flag to true when the timer completes
+            setIsRunning(0); // Set the timerEnded flag to true when the timer completes
             return {
               shouldRepeat: false
             };
